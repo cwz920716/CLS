@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/Modules)
 include(cmake/Utils.cmake)
 
 # include path
-include_directories(BEFORE "include")
+include_directories(BEFORE "include" "deps/eigen-eigen-9569d1f35bae")
 
 set(nnvm_LINKER_LIBS "")
 
